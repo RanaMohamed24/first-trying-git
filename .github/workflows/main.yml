@@ -19,4 +19,4 @@ jobs:
       - name: "Printing folder contents after uses"
         run: ls
       - name: "login to Docker "
-        run: docker login --username ranamohamed24 --password dckr_pat__Dhz6vwCycPb1ATUbmnT_WO8c4g
+        run: docker login --username ${{secrets.DOCKER_USERNAME}} --password ${{secrets.DOCKER_TOKEN}}
