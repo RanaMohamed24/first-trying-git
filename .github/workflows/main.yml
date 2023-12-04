@@ -2,9 +2,13 @@ on:
   push:
     branches:
       - master
+
+
+      
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: "Testing GitHub action"
         run: pwd
