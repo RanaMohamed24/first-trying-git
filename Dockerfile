@@ -1,5 +1,5 @@
 FROM openjdk
 WORKDIR /application
-COPY test.java .
-RUN javac test.java
-CMD java test
+COPY rana.java .
+RUN javac rana.java
+CMD java rana
