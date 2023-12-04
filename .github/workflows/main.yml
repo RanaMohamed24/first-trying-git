@@ -16,5 +16,5 @@ jobs:
         run: ls
 
       - uses: actions/checkout@v3
-      name: "Printing folder contents after uses"
+      - name: "Printing folder contents after uses"
         run: ls
